@@ -1,0 +1,43 @@
+body{
+  font-family:sans-serif;
+  background-color:#ddd;
+}
+
+a{
+	text-decoration: none;
+}
+
+div#menu{
+  float :right;
+  border: 1pt solid gray;
+  margin:10pt;
+  background-color:white;
+}
+
+ul{
+	margin :8pt;
+	padding:0;
+}
+
+li{
+	list-style-type:none;
+}
+
+div#container{
+  width: 520pt;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+div#content{
+  background-color:white;
+  padding: 20px;
+}
+
+h1{
+  background-color:gray;
+  padding:10pt;
+}
+
+
+

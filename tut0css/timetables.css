@@ -1,0 +1,29 @@
+table{
+	border-collapse: collapse;
+}
+
+table, td, th { border: 1pt solid black;
+}
+
+td,th {width: 55pt;
+	font-size:10pt;
+}
+
+tr.times th { background-color: gray;
+		color:white;
+}
+
+div.room { text-align:right;
+	font-style: italic;
+}
+
+#key { font-size: medium;
+	padding: 5pt;
+}
+
+#key th, td { width: auto;
+}
+
+div + div:nth-child(2) { font-weight: bold;
+}
+	

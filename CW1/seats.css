@@ -1,0 +1,106 @@
+body{
+	width:1250px;
+	font-family: arial;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header{
+	background-color: #ffa500;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	text-align:center;
+}
+
+#date{
+	font-weight:bold;
+}
+
+#plan{
+	width: 125px;
+	position: absolute;
+	margin-left:400px;
+	top: 150px;
+}
+
+#tripDetails{
+	width:260px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	background-color: #ffa500;
+	position:relative;
+	left:58%;
+	background-color: #ffa500;
+}
+
+#bookingSummary{
+	width:260px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	background-color: #ffa500;
+	position:relative;
+	left:58%;
+	background-color: #ffa500;
+}
+
+#key{
+	width:260px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	padding-bottom:50px;
+	background-color: #ffa500;
+	position:relative;
+	left:58%;
+}
+
+
+.selected{
+	background-color: #3399FF;
+}
+
+.taken{
+	background-color: #CCCCCC;
+}
+
+.free{
+	background-color: #ffffff;
+}
+
+#key td.taken{
+	border: solid black thin;
+	width:1ex;
+	height:1ex;
+	border-radius:.3ex;
+}
+
+#key td.free{
+	border: solid black thin;
+	width:1ex;
+	height:1ex;
+	border-radius:.3ex;
+}
+
+#key td.selected{
+	border: solid black thin;
+	width:1ex;
+	height:1ex;
+	border-radius:.3ex;
+}
+
+
+td.n.taken{
+	cursor:default;
+}
+
+td.n{
+	cursor:pointer;
+	border: solid black thin;
+	width:1ex;
+	height:1ex;
+	border-radius:.3ex;
+}
